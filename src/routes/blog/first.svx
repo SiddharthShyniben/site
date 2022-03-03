@@ -1,0 +1,17 @@
+---
+title: Hai there
+date: 2022-03-03
+description: This is a test post
+---
+
+<script>
+import Counter from '$lib/counter.svelte'
+</script>
+
+Hai there
+
+Some markdown
+
+## hellow
+
+<Counter />

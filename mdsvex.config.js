@@ -5,6 +5,8 @@ const config = {
 		dashes: 'oldschool'
 	},
 
+	layout: './src/lib/ArticleLayout.svelte',
+
 	remarkPlugins: [],
 	rehypePlugins: []
 };

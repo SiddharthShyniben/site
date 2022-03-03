@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import ArticleList from '$lib/ArticleList.svelte';
+</script>
+
+Hi there
+
+<h1>Article List</h1>
+
+<ArticleList />
