@@ -1,9 +1,27 @@
 <script>
-	import ArticleList from '$lib/ArticleList.svelte';
+	import Navbar from '$lib/Navbar.svelte';
+	import Articles from '$lib/ArticleList.svelte';
 </script>
 
-Hi there
+<Navbar />
+<Articles />
 
-<h1>Article List</h1>
+<style>
+:global(body, html) {
+	width: 100vw;
+	height: 100vh;
+	background-color: #DBEAFE;
+	margin: 0;
+	font-family: 'Jost', sans-serif;
+	font-display: swap;
+}
 
-<ArticleList />
+:global(body) {
+	scrollbar-color: #2563EB #DBEAFE;
+	overflow-y: scroll;
+}
+
+:global(::-webkit-scrollbar-thumb) {
+	color: #2563EB;
+}
+</style>

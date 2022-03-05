@@ -1,0 +1,13 @@
+---
+title: Understand Functional Programming basics by (re)writing FizzBuzz
+date: 2022-03-02
+description: |
+   Functional programming is a way of thinking about programs
+   by composing pure functions. It tries to avoid shared state,
+   mutability, and side effects. This makes the code easier
+   to reason about and easier to break apart and use for other
+   purposes.
+cover: /test-cover.png
+---
+
+Hai hai hai :eyes:
