@@ -29,7 +29,7 @@
 		{:then post}
 			<div class='top-post'>
 				<img src='{post.metadata.cover}'>
-				<h2>{post.metadata.title}</h2>
+				<h2><a href='/blog/{basename(topPost)}'>{post.metadata.title}</a></h2>
 				<p class='desc'>
 					<strong class='tldr'>TLDR </strong> {post.metadata.description}
 				</p>
@@ -60,6 +60,15 @@
 </div>
 
 <style>
+a {
+	color: #2563EB;
+	text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+	color: #1E40AF
+}
+
 .container {
 	width: 70vw;
 	max-width: min(1200px, 70vw);
